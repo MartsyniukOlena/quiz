@@ -6,7 +6,7 @@ font-family: 'Cormorant Garamond', serif;
 }
 
 .heading {
-    color: #D16BA5;
+    color: black;
     text-align: center;
     font-size: 3rem;
 }
@@ -15,7 +15,7 @@ font-family: 'Cormorant Garamond', serif;
     background-image: url(../images/fabulous-quiz.webp);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: no-repeat;
-    background-size: 350px;
+    background-size: 368px;
     background-position: center bottom;
     padding: 20px;
     box-sizing: border-box;
@@ -48,6 +48,11 @@ label {
 input[type="text"] {
     padding: 5px;
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
 }
 
 .button {
@@ -59,6 +64,7 @@ input[type="text"] {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1rem;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .button:hover {
