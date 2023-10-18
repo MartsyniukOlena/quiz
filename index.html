@@ -20,7 +20,6 @@
 <body>
     <h1 class="heading">English Language Quiz</h1>
     <div class="game-area">
-    <!--Welcome message-->
     <div class="welcome-message">
         <p>Welcome to English Language Quiz!<br>Enter your name to start your adventure!</p>
     </div>
@@ -29,13 +28,19 @@
     <input type="text" id="username" name="username" maxlength=15 placeholder="Enter your name here">
     </div>
     <br>
-    <button class="button" id="user-sign">Start Game</button>
+    <button class="button" id="start" data-type="submit">Start Game</button>
     </div>
 
-    <!-- Quiz section -->
-    <div class="quiz-section" style="display: none;">
+    <div class="difficulty-levels-area">
+        <button class="button" id="beginner-level">Beginner Level</button>
+        <button class="button" id="beginner-level">Intermediate Level</button>
+        <button class="button" id="beginner-level">Advanced Level</button>
     </div>
 
+    <div class="score-area">
+        <p class="scores">Correct Answers <span id="score">0</span></p>
+        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+    </div>
 
     <script src="assets/js/script.js"></script>
 
